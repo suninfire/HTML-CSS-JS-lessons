@@ -1,0 +1,34 @@
+body{
+    background: #87e778;
+}
+a{
+    background: #efeca6;
+    color: #622d02;
+
+}
+img {
+    width: 300px; }
+
+h1 {
+    background: #0c9eee;
+    color: yellow;
+}
+
+li{
+    background: #fdfbff;
+    color: #6600ff;
+}
+
+p {
+    background: beige;
+    color: blue;
+}p1 {
+    background: #b6f3b7;
+    color: #0a2805;
+}p2 {
+    background: #f5b672;
+    color: #ff6200;
+}p3 {
+    background: #f88f9b;
+    color: #ff001e;
+}
