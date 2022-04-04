@@ -1,0 +1,44 @@
+.box1 {
+    margin: 0 auto;
+    width: 600px;
+    height: 250px;
+    background: rgba(64, 28, 117, 0.83);
+    color: #fdfbff;
+    font-size: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box2 {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    width: 600px;
+    height: 250px;
+    justify-content: space-between;
+
+}
+.children{
+    width: 30%;
+    background: #6236a2;
+    color: #fdfbff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box3{
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    background: rgba(64, 28, 117, 0.83);
+    color: #fdfbff;
+    font-size: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
