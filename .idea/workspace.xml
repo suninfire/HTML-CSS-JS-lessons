@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3d2e0ff-dc42-4121-a849-6d47eb8058b8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/hw2/card2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw2/card2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw2/card2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/hw2/card2/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27ImRerGRwlzV00XZF5Ofj3um7O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw2/card3" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaScriptLessons\hw2\card3" />
+      <recent name="E:\JavaScriptLessons\hw2\card2" />
+      <recent name="E:\JavaScriptLessons\hw2\card1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaScriptLessons\hw2\card0" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3d2e0ff-dc42-4121-a849-6d47eb8058b8" name="Changes" comment="" />
+      <created>1649015999473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649015999473</updated>
+      <workItem from="1649016002166" duration="310000" />
+      <workItem from="1649099449546" duration="8510000" />
+      <workItem from="1649153887769" duration="5977000" />
+    </task>
+    <task id="LOCAL-00001" summary="change title">
+      <created>1649016258699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649016258699</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change title">
+      <created>1649016315252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649016315252</updated>
+    </task>
+    <task id="LOCAL-00003" summary="zz">
+      <created>1649103564031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649103564031</updated>
+    </task>
+    <task id="LOCAL-00004" summary="zzz">
+      <created>1649107998241</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649107998241</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change title" />
+    <MESSAGE value="zz" />
+    <MESSAGE value="zzz" />
+    <option name="LAST_COMMIT_MESSAGE" value="zzz" />
+  </component>
+</project>
