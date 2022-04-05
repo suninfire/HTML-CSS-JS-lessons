@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.main-box {
+    height: 500px;
+    width: 1000px;
+    background: #ec81ea;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.box{
+    width: 400px;
+    height: 100px;
+    background: #e3f1e1;
+    border-radius: 5px;
+    display: flex;
+}
+
+.fa-cat, .fa-horse, .fa-frog, .fa-dog, .fa-cow, .fa-hippo{
+    display: flex;
+    color: rgba(82, 0, 91, 0.83);
+    font-size: 30px;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.p{
+    color: rgba(64, 28, 117, 0.83);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.p2{
+    color: black;
+    font-family: Arial;
+    font-size: 13px;
+    margin: 0;
+
+}
