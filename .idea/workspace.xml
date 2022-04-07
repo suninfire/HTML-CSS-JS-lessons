@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3d2e0ff-dc42-4121-a849-6d47eb8058b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hw3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw3/card2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw3/card2/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/card1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/hw3/card1/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,7 @@
       <recent name="E:\JavaScriptLessons\hw2\card1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaScriptLessons\hw3\card1" />
       <recent name="E:\JavaScriptLessons\hw2\card0" />
     </key>
   </component>
@@ -63,7 +66,7 @@
       <workItem from="1649153887769" duration="6659000" />
       <workItem from="1649163606873" duration="5036000" />
       <workItem from="1649178068322" duration="90000" />
-      <workItem from="1649323809445" duration="5877000" />
+      <workItem from="1649323809445" duration="7963000" />
     </task>
     <task id="LOCAL-00001" summary="change title">
       <created>1649016258699</created>
@@ -114,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649169395707</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="hw3">
+      <created>1649329811611</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649329811611</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +135,7 @@
     <MESSAGE value="zzz" />
     <MESSAGE value="zz" />
     <MESSAGE value="hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw" />
+    <MESSAGE value="hw3" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw3" />
   </component>
 </project>
