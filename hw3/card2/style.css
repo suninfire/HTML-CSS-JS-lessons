@@ -14,18 +14,18 @@
     background: #456c2b
 }
 
-.box2{
+.box2 {
     display: flex;
     column-gap: 20px;
 
     position: absolute;
     top: 235px;
 }
-
 .box{
     width: 150px;
     height: 150px;
     border-radius: 10px;
     background: beige;
+
 }
 
