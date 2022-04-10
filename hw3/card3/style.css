@@ -1,0 +1,98 @@
+.mainbox{
+    margin: auto;
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.text{
+    font-size: 25px;
+    color: azure;
+    font-family: Arial;
+    text-align: center;
+    line-height: 80px;
+
+
+}
+
+.header, .footer{
+    width: 600px;
+    height: 80px;
+    background: dodgerblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    width: 600px;
+    height: 400px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1{
+    width: 220px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero{
+    height: 150px;
+    background: #bfa3ce;
+}
+
+.sidebar{
+    height: 245px;
+    background: #6236a2;
+}
+
+.box2{
+    width: 375px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.maincontent{
+    height: 250px;
+    background: #9861e8;
+}
+
+.extracontent{
+    height: 145px;
+    background: rgba(41, 8, 89, 0.83);
+}
+
+.post {
+    width: 600px;
+    height: 120px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.images{
+    height: 120px;
+    width: 430px;
+    background: #4ab0e7;
+}
+
+.posts{
+    height: 120px;
+    width: 165px;
+    background: dodgerblue;
+}
+
+.footer {background: #f5b672;}
