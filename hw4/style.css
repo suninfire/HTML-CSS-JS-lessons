@@ -1,0 +1,48 @@
+.mainbox{
+    margin: auto;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.boxA{
+    height: 200px;
+    background: cadetblue;
+    border-radius: 15px;
+}
+
+.box{
+    display: flex;
+}
+
+.boxes{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.b, .c, .d, .e, .f, .g{
+    width: 170px;
+    height: 170px;
+    background: darkcyan;
+    border-radius: 15px;
+}
+
+.boxH{
+    width: 25%;
+    background: #026969;
+    border-radius: 15px;
+}
+
+.text{
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+    color: azure;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
