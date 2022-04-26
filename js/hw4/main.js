@@ -26,16 +26,15 @@
 // let CS = C(20,10);
 // document.write(CS);
 
-
 // - створити функцію яка приймає масив та виводить кожен його елемент
 
-//  let Array = [12,14,22,'owl',true];
-// function Arr (Array){
-//     for (i = 0; i <Array.length; i++){
-//         console.log(Array[i]);
+//  let array = [12,14,22,'owl',true];
+// function arr (array){
+//     for (arra of array){
+//         console.log(arra);
 //     }
 // }
-// Arr(Array);
+// arr(array);
 
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
 
@@ -60,12 +59,11 @@
 
 // function sometext (l,arg){
 //     document.write('<ul>');
-//     for (i=0; i<arg; i++){
+//     for (i = 0; i < arg; i++){
 //     document.write(`<li>${l}</li>`);}
 //     document.write('</ul>');
 // }
 // sometext('okten web', 3);
-
 
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
 
@@ -94,5 +92,26 @@
 
 // - створити функцію яка повертає найменьше число з масиву
 
+// let numbers = [19,21,3,17,25,4,8,11,33,41];
+// function minN (array) {
+//     let min = numbers[0];
+//     for (let number of numbers){
+//         if (number < min) {
+//             min = number;
+//         }
+//     }
+//     return min;
+// }
+// document.write(minN(numbers));
+
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 
+// let num = [21,12,2];
+// function arr (num){
+//     let sum = 0;
+//     for (let n of num){
+//         sum += n;
+//     }
+//     return sum;
+// }
+// document.write(arr(num));
