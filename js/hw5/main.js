@@ -47,10 +47,9 @@
 // console.log(foo(15,20));
 
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
-// let foo = (array) => {
-//     for (i = array.length; i >= 0; i--) {
-//         console.log(array[i]);
-// };
+// let foo = (arr) => {
+//     let arr2 = arr.reverse();
+//         console.log(arr2);
 // }
 // foo([2,-4,6,14,2,76,10]);
 
@@ -135,5 +134,4 @@
 // let foo = (array) => [array[0],array [1]] =  [array[1],array [0]];
 // console.log(foo([{age:20, name:`Olya`},{age:40, name:`Kolya`}]));
 
-// document.write(foo([{age:20, name:'Olya'},{age:40, name:'Kolya'}]));
-// чому з документ виводить не  сам об.єкт , а [object Object],[object Object]
+
