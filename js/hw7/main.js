@@ -112,13 +112,13 @@
 
 // - (Те саме, тільки через клас)
 // Створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
-class Car {
-constructor (model,maker,year,maxSpeed,engineVolume) {
-  this.model = model;
-  this.maker = maker;
-  this.year = year;
-  this.maxSpeed = maxSpeed;
-  this.engineVolume = engineVolume;
+// class Car {
+// constructor (model,maker,year,maxSpeed,engineVolume) {
+//   this.model = model;
+//   this.maker = maker;
+//   this.year = year;
+//   this.maxSpeed = maxSpeed;
+//   this.engineVolume = engineVolume;
 
   // this.drive = function (){
   //   return console.log(`їдемо зі швидкістю ${maxSpeed} km на годину`)
