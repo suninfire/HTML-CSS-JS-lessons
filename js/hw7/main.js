@@ -70,7 +70,7 @@
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
-// function car (model,maker,year,maxSpeed,engineVolume){
+// function Car (model,maker,year,maxSpeed,engineVolume){
 //   this.model = model;
 //   this.maker = maker;
 //   this.year = year;
@@ -82,8 +82,8 @@
   // }
   //
   // this.infoo = function (){
-  //   for (let key in car1) {
-  //    console.log(`${key}: ${car1[key]}`);
+  //   for (let key in this) {
+  //    console.log(`${key} - ${this[key]}`);
   //   }
   // }
   //
@@ -101,7 +101,7 @@
   // }
 // }
 //
-// let car1 = new car('x5','BMW',2010,200,4.4);
+// let car1 = new Car('x5','BMW',2010,200,4.4);
 //
 // console.log(car1.drive());
 // console.log(car1.infoo());
@@ -119,34 +119,33 @@
 //   this.year = year;
 //   this.maxSpeed = maxSpeed;
 //   this.engineVolume = engineVolume;
-
-  // this.drive = function (){
-  //   return console.log(`їдемо зі швидкістю ${maxSpeed} km на годину`)
+//
+  // drive(){
+  //   console.log(`їдемо зі швидкістю ${maxSpeed} km на годину`)
   // }
-
-  // this.info = function (){
+  //
+  // info(){
   //   for (const key in this) {
   //  console.log(key,this[key])
   //   }
   // }
-
-
-  // this.increaseMaxSpeed = function (newSpeed){
+  //
+  // increaseMaxSpeed(newSpeed){
   //     return maxSpeed + newSpeed;
   //   }
-
-    // this.changeYear = function (newValue){
+  //
+    // changeYear(newValue){
     //   this.year = newValue;
     //   return this.year
     // }
-
-//     this.addDriver = function (driver){
+//
+//     addDriver(driver){
 //       this.driver = driver;
 //     }
 // }
 // }
 // let car1 = new Car('x5','BMW',2010,200,4.4);
-
+//
 // car1.drive();
 // car1.info();
 // console.log(car1.increaseMaxSpeed(60));
@@ -154,8 +153,7 @@
 // console.log(car1)
 // car1.addDriver({name:'vasya',age:35});
 // console.log(car1)
-
-
+//
 // -- drive () - яка виводить в консоль `їдемо зі швидкістю ${максимальна швидкість} на годину`
 // -- info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
@@ -189,16 +187,16 @@
 //     this.tyfelka = tyfelka;
 //   }
 // }
-// let PrinceCharming = new Prince('Charming',28,35);
+// let princeCharming = new Prince('Charming',28,35);
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 // for (let pr of princesses) {
-//     if (pr.foodsize === PrinceCharming.tyfelka){
+//     if (pr.foodsize === princeCharming.tyfelka){
 //       console.log(pr) ;
 //     }
 //   }
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 // let found = princesses.find((girl) => {
-//   if (girl.foodsize === PrinceCharming.tyfelka){
+//   if (girl.foodsize === princeCharming.tyfelka){
 //       console.log(girl) ;
 //     }
 // })
