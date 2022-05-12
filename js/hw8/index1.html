@@ -43,7 +43,7 @@
     // -- змініть кожному елементу колір фону на червоний
     // -- змініть кожному елементу колір тексту на синій
     let elements = document.querySelectorAll('body > p,div,ul');
-    for (element of elements){
+    for (let element of elements){
         element.style.background = 'red'
         element.style.color = 'blue'
     }
@@ -51,7 +51,7 @@
    console.log(rules.classList);
     // -- поміняти колір тексту у всіх елементів fc_rules на yellow
 let fc_rules = document.getElementsByClassName('fc_rules')
-    for (elem of fc_rules){
+    for (let elem of fc_rules){
         elem.style.color = 'yellow'
     }
 </script>

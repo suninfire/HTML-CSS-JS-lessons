@@ -42,68 +42,72 @@
 
     // c) робить шириниу всіх елементів з класом linkList шириною 50%
     let ll = document.getElementsByClassName('linkList');
-        for (llEl of ll){
+        for (let llEl of ll){
             llEl.style.width = '50%'
         }
 
    // d) отримує текст який зберігається в елементі з класом listElement2
      let listEl2 = document.getElementsByClassName('listElement2');
-        for (lll of listEl2){
+        for (let lll of listEl2){
             console.log(lll.innerText);
         }
 
     // e) отримує всі елементи li та змінює ім колір фону на сірий
     let liElements = document.querySelectorAll('li');
-      for (liElement of liElements){
+      for (let liElement of liElements){
           liElement.style.background = 'grey'
       }
 
     // f) отримує всі елементи 'a' та додає їм клас anchor
     let aElements = document.querySelectorAll('a');
-      for (aElement of aElements){
-          aElement.classList.add('anchar')
-
-          // g) отримує всі елементи 'a' та у випадку, якщо текстовий контен елементу дорівнює link3,змінює йому розмір тексту на 40 пікселів
-          if (aElement.innerHTML === 'link3'){
-              aElement.style.fontSize = '40px'
-          }
+      // for (let aElement of aElements){
+      //     aElement.classList.add('anchar')
+      //
+      //     // g) отримує всі елементи 'a' та у випадку, якщо текстовий контен елементу дорівнює link3,змінює йому розмір тексту на 40 пікселів
+      //     if (aElement.innerHTML === 'link3'){
+      //         aElement.style.fontSize = '40px'
+      //     }
 
           // h) отримує всі елементи 'a' та додає їм клас element_XXX. Де XXX - текстовий контент елементу a
-          if (aElement.innerHTML === 'link1'){
-              aElement.classList.add('element_link1')
-          } else if (aElement.innerHTML === 'link2'){
-              aElement.classList.add('element_link2')
-          } else if (aElement.innerHTML === 'link3'){
-              aElement.classList.add('element_link3')
-      }}
+      //     if (aElement.innerHTML === 'link1'){
+      //         aElement.classList.add('element_link1')
+      //     } else if (aElement.innerHTML === 'link2'){
+      //         aElement.classList.add('element_link2')
+      //     } else if (aElement.innerHTML === 'link3'){
+      //         aElement.classList.add('element_link3')
+      // }}
+    for (let aElement of aElements){
+        aElement.classList.add(`element_+${aElement.innerText}`);
+    }
+
 
     // i) отримує всі елементи 'sub-header' та змінює колір фону. Фон отримати з prompt()
-    let sub = document.getElementsByClassName('sub-header');
-      for (subEl of sub){
-          subEl.style.background = prompt('what background you want?');
+    // let sub = document.getElementsByClassName('sub-header');
+    //   for (let subEl of sub){
+    //       subEl.style.background = prompt('what background you want?');
 
     // j) отримує всі елементи 'sub-header' та змінює колір тексту у видаку якщо текст елемнту = content 2 segment . Колір отримати з prompt()
-          if (subEl.innerHTML === 'content 2 segment'){
-              subEl.style.color = prompt('what text color you want?')
-          }
-      }
+    //       if (subEl.innerHTML === 'content 2 segment'){
+    //           subEl.style.color = prompt('what text color you want?')
+    //       }
+    //   }
 
     // k) отримує елемент з класом content_1 та заміняє  в ньому теkст на довільний.Текст отримати з prompt()
-    let content = document.getElementsByClassName('content_1');
-      for (con of content){
-          con.innerHTML = prompt('write your text')
-      }
+    // let content = document.getElementsByClassName('content_1');
+    //   for (let con of content){
+    //       con.innerHTML = prompt('write your text')
+    //   }
 
     // l) отримати елементи p та змінити їм padding на 20px
     let pEleements = document.querySelectorAll('p');
-      for (p of pEleements){
+      for (let p of pEleements){
           p.style.padding = '20px';
       }
-      
+
     // m) отримати елементи з класом text2 та змінити їм текст на назву групи (mon-year.
     // Пример sep-2021)
     let text2El = document.getElementsByClassName('text2');
-      for (te of text2El){
+      for (let te of text2El){
           te.innerHTML = 'march-2022'
       }
 </script>
