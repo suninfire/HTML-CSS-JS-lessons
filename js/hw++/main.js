@@ -143,11 +143,11 @@
 //
 // стоврити масив книжок (назва, кількість сторінок, автори , жанри).
 let books = [
-    {name:Fight club, pages:208,author: Chuck Palahniuk, genre:	['satirical novel']},
-    {name:It, pages:1138,author:Stephen King, genre:['mystery','detective']},
-    {name:It, pages:1138,author:Stephen King, genre:['horror','thriller dark','fantasy']},
-    {name:It, pages:1138,author:Stephen King, genre:['horror','thriller dark','fantasy']},
-    {name:It, pages:1138,author:Stephen King, genre:['horror','thriller dark','fantasy']},
+    {name:'Fight club', pages:208,author: 'Chuck Palahniuk', genre:	['satirical novel']},
+    {name:'The Da Vinci Code', pages:689,author:'Dan Brown', genre:['mystery','detective','conspiracy fiction','thriller']},
+    {name:'It', pages:1138,author:'Stephen King', genre:['horror','thriller dark','fantasy']},
+    {name:'Harry Potter and the Philosophers Stone', pages:223,author:'Joanne Rowling', genre:['fantasy']},
+    {name:'Martin Eden', pages:437,author:['Jack','London'], genre:['artists novel']},
 
 ];
 // -знайти наібльшу книжку.
