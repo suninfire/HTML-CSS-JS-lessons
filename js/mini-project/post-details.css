@@ -1,0 +1,18 @@
+.main{
+    border: 1px solid black;
+   padding: 5px;
+}
+.comdiv{
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.coments{
+    border: 1px solid black;
+    padding: 5px;
+    width: 18%;
+}
+
+

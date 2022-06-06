@@ -1,0 +1,29 @@
+.bDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.postButton{
+    width: 90%;
+}
+
+.postsstyle{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.poststyle{
+    border: 1px solid silver;
+    width: 19%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
