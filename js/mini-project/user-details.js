@@ -51,18 +51,11 @@ fetch('https://jsonplaceholder.typicode.com/users')
                                 postButton.onclick = () => {
                                     localStorage.setItem('key2', title);
                                 }
-
                             }
-
                         })
                 }
-
-
             }
-
-
                 }
-
                 })
 
 

@@ -20,6 +20,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${key}/posts`)
     const comments = document.createElement('div');
     comments.classList.add('comdiv')
     document.body.appendChild(comments);
+
     for (it of value){
         const comDiv = document.createElement('div');
         comDiv.classList.add('coments');

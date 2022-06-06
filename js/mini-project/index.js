@@ -10,10 +10,10 @@ fetch('https://jsonplaceholder.typicode.com/users')
             const button = document.createElement('a');
             button.innerHTML = '<input type="button" value="more">'
             button.setAttribute('href','http://localhost:63342/JavaScriptLessons/js/mini-project/user-details.html')
-            div.append(button)
+            div.append(button);
 
             button.onclick = () => {
-                localStorage.setItem('key', item.id)
+                localStorage.setItem('key', item.id);
                }
         }})
 

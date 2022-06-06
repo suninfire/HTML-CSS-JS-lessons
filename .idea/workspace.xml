@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3d2e0ff-dc42-4121-a849-6d47eb8058b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js/mini-project/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/mini-project/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/mini-project/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/mini-project/post-details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/mini-project/post-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/mini-project/post-details.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/mini-project/user-details.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/mini-project/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/mini-project/user-details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hw10/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hw10/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/hw12/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/hw12/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mini-project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mini-project/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mini-project/post-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/post-details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mini-project/post-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/post-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mini-project/post-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/post-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mini-project/user-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/user-details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mini-project/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/user-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/mini-project/user-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/mini-project/user-details.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +120,7 @@
       <workItem from="1653735476414" duration="1864000" />
       <workItem from="1653987536700" duration="4423000" />
       <workItem from="1654255931438" duration="6088000" />
-      <workItem from="1654445868892" duration="42676000" />
+      <workItem from="1654445868892" duration="42993000" />
     </task>
     <task id="LOCAL-00001" summary="change title">
       <created>1649016258699</created>
@@ -427,7 +423,28 @@
       <option name="project" value="LOCAL" />
       <updated>1653990847821</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="mini-prog">
+      <created>1654499026028</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1654499026028</updated>
+    </task>
+    <task id="LOCAL-00045" summary="qq">
+      <created>1654499152634</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1654499152634</updated>
+    </task>
+    <task id="LOCAL-00046" summary="qq">
+      <created>1654499195278</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1654499195278</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +456,9 @@
     <MESSAGE value="zz" />
     <MESSAGE value="hw" />
     <MESSAGE value="hw3" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw3" />
+    <MESSAGE value="mini-prog" />
+    <MESSAGE value="qq" />
+    <option name="LAST_COMMIT_MESSAGE" value="qq" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

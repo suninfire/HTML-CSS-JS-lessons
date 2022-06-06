@@ -19,6 +19,7 @@
     border: 1px solid silver;
     width: 19%;
     height: 120px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
